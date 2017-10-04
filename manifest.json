@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+
+  "name": "ServiceNow Extension",
+  "description": "Shows items assigned to you or opened by you on the task table.",
+  "version": "1.0",
+  "permissions" : ["management"],
+  "chrome_url_overrides" : {
+      "newtab": "newtab.html"
+    }
+}
